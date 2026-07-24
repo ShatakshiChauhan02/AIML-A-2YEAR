@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern</title>
+    <script>
+      function display(n)
+        {
+            let s = "";
+            for (let i = 1; i <= n; i++)
+            {
+                s+= "*";
+            }
+            console.log(s);
+        }
+
+        function pat()
+        {
+            for (let i = 1; i <= 4; i++)
+            {
+                display(i);
+            }
+            for (let i = 3; i >= 1; i--)
+            {
+                display(i);
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <input type="button" value="Print Pattern" onclick="pat()">
+</body>
+</html>
