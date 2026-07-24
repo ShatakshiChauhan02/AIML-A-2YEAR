@@ -10,7 +10,16 @@
     <script>
         let a=parseInt(prompt("Enter Age"));
         if(a>=18)
+    {
         alert("You are eligible for vote");
+        var c = confirm("Do you want voting?");
+
+            if (c) {
+                alert("You can vote");
+            } else {
+                alert("Thank you!");
+            }
+    }
         else
         alert("You are not eligible for vote");
     </script>
