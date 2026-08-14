@@ -154,3 +154,20 @@ const employee = {
 };
 
 employee.display();
+
+console.log("\n===Add Delete Object Property===");
+let studentData = {
+    name: "Shatakshi",
+    age: 18
+};
+
+console.log(studentData);
+
+// Adding property
+studentData.course = "BTech";
+console.log(studentData)
+
+// Deleting property
+delete studentData.age;
+
+console.log(studentData);
