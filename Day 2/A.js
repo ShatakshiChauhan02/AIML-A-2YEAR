@@ -60,9 +60,23 @@ console.log("Total Marks=",total);
 console.log("Percentage=",percentage(total)+"%");
 
 
+console.log("\n===While Loop===");
+let i = 1;
 
-// console.log("\n===While Loop===");
-// console.log("\n===Do while Loop===");
+while (i <= 5) {
+    console.log(i);
+    i++;
+}
+
+console.log("\n===Do while Loop===");
+let j = 1;
+
+do {
+    console.log(j);
+    j++;
+} while (j <= 5);
+
+
 console.log("\n===Array===");
 let arr= [10, 20, 30, 40, 50];
 
@@ -101,3 +115,25 @@ const student = {
 };
 
 console.log(student);
+
+
+console.log("\n===Array Of Object===");
+const studs = [
+    {
+        Name: "Shatakshi",
+        Age: 18,
+        College: "ABES Engineering College"
+    },
+    {
+        Name: "Sam",
+        Age: 19,
+        College: "ABES Engineering College"
+    },
+    {
+        Name: "Shiva",
+        Age: 18,
+        College: "ABES Engineering College"
+    }
+];
+
+console.log(students);
