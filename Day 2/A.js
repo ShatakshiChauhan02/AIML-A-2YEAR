@@ -63,5 +63,41 @@ console.log("Percentage=",percentage(total)+"%");
 
 // console.log("\n===While Loop===");
 // console.log("\n===Do while Loop===");
-// console.log("\n===Array===");
-// console.log("\n===Const Array===");
+console.log("\n===Array===");
+let arr= [10, 20, 30, 40, 50];
+
+let sum = 0;
+
+for (let i = 0; i < arr.length; i++) {
+    sum = sum + arr[i];
+}
+
+console.log("Total Sum:", sum);
+
+
+console.log("\n===Const Array===");
+const students = [
+    ["Shatakshi", "Chauhan", 18, 90],
+    ["Sam", "Sharma", 19, 85],
+    ["Shiva", "Singh", 18, 95]
+];
+
+for (let i = 0; i < students.length; i++) {
+    console.log(
+        "FirstName:", students[i][0],
+        "LastName:", students[i][1],
+        "Age:", students[i][2],
+        "Marks:", students[i][3]
+    );
+}
+
+
+
+console.log("\n===Object===");
+const student = {
+    Name: "Shatakshi",
+    Age: 18,
+    College: "ABES Engineering College"
+};
+
+console.log(student);
