@@ -137,3 +137,20 @@ const studs = [
 ];
 
 console.log(students);
+
+
+
+console.log("\n===Object Methods===");
+const employee = {
+    id: 101,
+    name: "Shatakshi",
+    department: "AIML",
+
+    display: function() {
+        console.log("ID:", this.id);
+        console.log("Name:", this.name);
+        console.log("Department:", this.department);
+    }
+};
+
+employee.display();
