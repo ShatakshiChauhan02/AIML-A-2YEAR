@@ -179,3 +179,45 @@ console.log(
     "Maximum =",
     Math.max(10,20,30,40)
 );
+
+//Minimum Value
+
+console.log(
+    "Minimum =",
+    Math.min(10,20,30,40)
+);
+
+//Round Value
+
+console.log(
+    "Round =",
+    Math.round(6.2)
+);
+
+//Floor Value
+
+console.log(
+    "Floor =",
+    Math.floor(5.8)
+);
+
+//Ceil Value
+
+console.log(
+    "Ceil =",
+    Math.ceil(5.2)
+);
+
+//Square Root
+
+console.log(
+    "Square Root =",
+    Math.sqrt(16)
+);
+
+//Power
+
+console.log(
+    "POwer =",
+    Math.pow(5,2)
+);
