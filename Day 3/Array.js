@@ -58,3 +58,21 @@ console.log("Split =",result);
 //8. replace()
 
 let text="I Love Java";
+console.log(
+    text.replace("Java","JavaScript")
+    );
+
+//9. concat()
+
+let first="Shatakshi";
+let last="Chauhan";
+
+console.log(
+    first.concat(" ",last)
+);
+
+//Includes method
+console.log("\n====Includes=====")
+let course="JavaScript";
+console.log(course.includes("Script"));
+console.log(course.includes("Python"));
