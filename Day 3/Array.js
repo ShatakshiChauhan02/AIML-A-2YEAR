@@ -76,3 +76,46 @@ console.log("\n====Includes=====")
 let course="JavaScript";
 console.log(course.includes("Script"));
 console.log(course.includes("Python"));
+
+//-------------------------------------
+// Array Object
+//-------------------------------------
+
+console.log("\n==== Array Object ====");
+
+let numbers = [10,20,30,40,50];
+
+console.log(numbers);
+
+//Access Array Element
+
+console.log(numbers[0]);
+console.log(numbers[3]);
+
+//-------------------------------------
+// Array Methods
+//-------------------------------------
+
+console.log("\n==== Array Methods ====");
+
+//Push
+
+numbers.push(25);
+console.log("After Push = ",numbers);
+
+//Pop
+
+numbers.pop();
+console.log("After Pop = ",numbers);
+
+//Unshift
+
+numbers.unshift(5);
+console.log(
+ "After Unshift = ",numbers
+);
+
+//Shift
+
+numbers.shift(4);
+console.log("After Shift = ",numbers);

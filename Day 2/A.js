@@ -171,3 +171,4 @@ console.log(studentData)
 delete studentData.age;
 
 console.log(studentData);
+
