@@ -119,3 +119,63 @@ console.log(
 
 numbers.shift(4);
 console.log("After Shift = ",numbers);
+
+//-------------------------------------
+// Date Object
+//-------------------------------------
+
+console.log("\n===== Date Methods ====");
+
+let date =new Date();
+
+console.log(date);
+
+//Get Full Year
+
+console.log(
+    "Year =",
+    date.getFullYear()
+);
+
+//Get Month
+
+console.log(
+    "Month =",
+    date.getMonth()
+);
+
+//Get Date
+
+console.log(
+    "Date =",
+    date.getDate()
+);
+
+//Get Day
+
+console.log(
+    "Day =",
+    date.getDay()    
+);
+
+//Get Time
+console.log(
+    "Time =",
+    date.getTime()
+);
+
+//------------------------------------
+//Math Object
+//------------------------------------
+
+
+console.log("\n==== Math Object ====");
+
+console.log("PI =",Math.PI);
+
+//Maximum Value
+
+console.log(
+    "Maximum =",
+    Math.max(10,20,30,40)
+);
