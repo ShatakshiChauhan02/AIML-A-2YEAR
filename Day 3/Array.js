@@ -40,3 +40,21 @@ console.log(
     message.lastIndexOf("JavaScript")
 );
 
+//6. slice()
+
+console.log(
+    "Slice =",
+    str.slice(0,7)
+);
+
+//7.split()
+
+let data="HTML,CSS,JavaScript";
+
+let result=data.split(",");
+
+console.log("Split =",result);
+
+//8. replace()
+
+let text="I Love Java";
