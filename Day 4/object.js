@@ -78,3 +78,34 @@ f={
 
 e.show();
 f.show();
+
+let student = {
+    name: "Shatakshi",
+    marks: 90,
+    grade: "A",
+
+    updateGrade: function() {
+        this.grade = "A+";
+    }
+};
+
+student.updateGrade();
+
+console.log("Name:", student.name);
+console.log("Marks:", student.marks);
+console.log("Grade:", student.grade);
+
+//Rest Operator collection
+function sum(name, ...args){
+    console.log(args);
+    let total=0;
+    for(let i of args){
+        total=total+i;
+    }
+    console.log("Hello "+name);
+    console.log("Total = "+total);
+}
+
+sum("Shatakshi", 10,20,30,40);
+
+//Spread Operator
