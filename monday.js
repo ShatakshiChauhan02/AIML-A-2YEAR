@@ -59,3 +59,16 @@ function printName(){
 printName();
 
 console.log("Welcome"); 
+
+//Promise
+let complet=true;
+
+let prom=new Promise(function(resolve,reject){
+    if(complet){
+        resolve("I am true")
+    }else{
+        reject("I am not true")
+    }
+})
+console.log(prom);
+
