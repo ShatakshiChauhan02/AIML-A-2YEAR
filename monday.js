@@ -43,3 +43,19 @@ setTimeout(function(){
 }, 2000);
 console.log("End");
 
+//other Example
+
+function printName(){
+    console.log("Shatakshi")
+}
+printName();
+console.log("Welcome");
+
+function printName(){
+    setTimeout(()=>{
+        console.log("Shatakshi");
+    },2000);
+}
+printName();
+
+console.log("Welcome"); 
